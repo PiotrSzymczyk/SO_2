@@ -107,7 +107,7 @@ public class ProcesListGenerator {
             tempList.add(i, proc);  
         }
         
-        System.out.println("dla " + tempList.size() + " procesów");
+        System.out.print("dla " + tempList.size() + " procesów");
         return tempList;
     }   
 }

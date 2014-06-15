@@ -88,10 +88,10 @@ public class Sheluder {
         return anything;                                                                                         //czy zostały jeszcze jakiekolwiek procesy na którejkolwiek liście
     }
     public void printTimes(int liczbaProcesow){
-        System.out.println("całkowita odległość pokonana przez głowicę dla CSCAN: "  +   kolejkaCSCAN.getTotal());
-        System.out.println("całkowita odległość pokonana przez głowicę dla FCFS: "  +   kolejkaFCFS.getTotal());
-        System.out.println("całkowita odległość pokonana przez głowicę dla SCAN: "  +   kolejkaSCAN.getTotal());
-        System.out.println("całkowita odległość pokonana przez głowicę dla SSTF: "  +   kolejkaSSTF.getTotal());
+        System.out.print(kolejkaCSCAN.getTotal());
+        System.out.print("\t"  +   kolejkaFCFS.getTotal());
+        System.out.print("\t"  +   kolejkaSCAN.getTotal());
+        System.out.print("\t"  +   kolejkaSSTF.getTotal());
     }
     
 
